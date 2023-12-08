@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientTextView">
+        <attr name="start_color" format="color|reference" />
+        <attr name="end_color" format="color|reference" />
+    </declare-styleable>
+
+    <style name="bottom_view_line">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:background">@color/color_33ffffff</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+    </style>
+
+
+    <style name="main_setting_text_view">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="start_color">@color/color_main_setting_item_start</item>
+        <item name="end_color">@color/color_main_setting_item_end</item>
+    </style>
+
+    <style name="main_setting_frame_view">
+        <item name="android:background">@drawable/shape_main_setting_item_frame</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

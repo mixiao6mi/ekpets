@@ -3,6 +3,11 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
+        maven { url "https://jitpack.io" }
     }
 }
 dependencyResolutionManagement {
@@ -10,7 +15,41 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "xiaomi"
 include ':app'
+
+include ':module-base'
+project(':module-base').projectDir = new File('modules/module-base')
+include ':module-account'
+project(':module-account').projectDir = new File('modules/module-account')
+include ':module-common'
+project(':module-common').projectDir = new File('modules/module-common')
+
+include ':module-net'
+project(':module-net').projectDir = new File('modules/module-net')
+
+include ':module-login'
+project(':module-login').projectDir = new File('modules/module-login')
+
+include ':module-launch'
+project(':module-launch').projectDir = new File('modules/module-launch')
+
+include ':module-main'
+project(':module-main').projectDir = new File('modules/module-main')
+
+include ':module-user'
+project(':module-user').projectDir = new File('modules/module-user')
+
+include ':module-order'
+project(':module-order').projectDir = new File('modules/module-order')
+
+include ':module-pets'
+project(':module-pets').projectDir = new File('modules/module-pets')
+

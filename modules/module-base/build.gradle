@@ -1,0 +1,5 @@
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    //RxPermission
+    api 'com.github.tbruyelle:rxpermissions:0.10.2'
+}

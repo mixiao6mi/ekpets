@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_main_login">登录</string>
+    <string name="fragment_main_register">注册</string>
+
+    <string name="fragment_main_no_login">未登录</string>
+    <string name="fragment_main_top_setting">设置</string>
+    <string name="fragment_main_top_vip">VIP %d</string>
+    <string name="fragment_main_top_copy_id">复制ID</string>
+    <string name="tips_press_again">再按一次退出</string>
+
+    <string name="main_setting_menu_audio">音量设置</string>
+    <string name="main_setting_menu_audio_change">音乐开关</string>
+    <string name="main_setting_menu_password_change">个人资料</string>
+    <string name="main_setting_menu_money">资金明细</string>
+    <string name="main_setting_menu_user_guide">会员教程</string>
+    <string name="main_setting_menu_feedback">意见反馈</string>
+    <string name="main_setting_menu_help">帮助中心</string>
+    <string name="main_setting_menu_version">版本号</string>
+    <string name="main_setting_menu_logout">退出登录</string>
+
+    <string name="logout">安全退出</string>
+    <string name="user_confirm_logout">请确认是否退出当前账号</string>
+</resources>

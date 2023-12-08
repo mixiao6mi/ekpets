@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--绿色文字-->
+    <color name="color_00A525">#4DA743</color>
+    <!--黄色文字-->
+    <color name="color_F7B500">#F7B500</color>
+    <!--红色文字、icon-->
+    <color name="color_E20B0B">#C7A15E</color>
+
+    <!--5.常规文字色-->
+    <color name="c_text">#66FFFFFF</color>
+</resources>

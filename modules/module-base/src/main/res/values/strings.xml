@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tips_copy_success">复制成功</string>
+
+
+    <string name="common_string_male">男士</string>
+    <string name="common_string_famale">女士</string>
+    <string name="common_string_unknow">请选择性别</string>
+    <string name="common_string_birthday">添加日期, 确保您18周岁</string>
+
+    <string name="comm_pull_refresh">松开刷新</string>
+
+    <string name="string_activity_time">活动时间：</string>
+    <string name="string_activity_time_always_valid">活动时间：永久有效</string>
+</resources>

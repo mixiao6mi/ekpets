@@ -1,0 +1,48 @@
+//如果某个模块想添加某个依赖，只需要创建
+
+// "模块名":["库1","库2"]
+// 所有库都用implementation进行依赖
+ ext {
+    libMap = [
+            //公用模块，每个模块都会依赖，如果需要依赖，只需直接添加到下面会自动依赖
+            "common":[
+                     "androidx.appcompat:appcompat:1.6.1",
+                     "androidx.core:core-ktx:1.7.0",
+                     "com.google.android.material:material:1.5.0",
+                     // 快速adapter
+                     "io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.8",
+                     // 屏幕适配
+                     "com.github.JessYanCoding:AndroidAutoSize:v1.2.1",
+                     // tab indicator
+                     "com.github.hackware1993:MagicIndicator:1.7.0",
+                     // 刷新头
+                     "io.github.scwang90:refresh-layout-kernel:2.0.5",
+                     "io.github.scwang90:refresh-header-classics:2.0.5",
+
+                     "com.airbnb.android:lottie:5.2.0",
+
+                     //mmkv
+                     "com.tencent:mmkv:1.2.15",
+                     "com.google.code.gson:gson:2.8.5",
+                     "com.jakewharton.rxbinding2:rxbinding:2.2.0",
+                     "com.github.tapadoo:alerter:7.2.4",
+                     "com.orhanobut:logger:2.2.0",
+                     "com.github.gzu-liyujiang.AndroidPicker:WheelPicker:4.1.11",
+
+                     "io.github.scwang90:refresh-layout-kernel:2.0.5",
+                     "io.github.scwang90:refresh-header-classics:2.0.5",
+
+                     "com.tencent.tbs:tbssdk:44286",
+                     "com.alibaba:fastjson:1.2.72",
+                     "ren.yale.android:cachewebviewlib:2.1.8",
+            ],
+            "module-net":[
+                    "com.squareup.retrofit2:retrofit:2.9.0",
+                    "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2",
+                    "com.squareup.retrofit2:converter-gson:2.9.0",
+                    "com.squareup.okhttp3:logging-interceptor:4.10.0",
+                    "org.java-websocket:Java-WebSocket:1.5.3",
+
+            ]
+    ]
+}

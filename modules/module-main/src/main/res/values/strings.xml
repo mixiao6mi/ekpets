@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="tips_press_again" tools:ignore="ExtraTranslation">再按一次退出</string>
+</resources>

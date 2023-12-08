@@ -1,0 +1,45 @@
+<resources>
+    <string name="error_tips_json_parse_exception">数据解析失败</string>
+    <string name="error_tips_connection_exception">连接失败，请检查网络</string>
+    <string name="error_tips_time_error">连接超时，请检查网络</string>
+    <string name="error_tips_unknown_error">未知异常</string>
+    <string name="error_tips_http_exception_401">登录失效，请重新登录</string>
+    <string name="error_tips_http_exception_403">请求被拒绝</string>
+    <string name="error_tips_http_exception_404">服务器不可用</string>
+    <string name="error_tips_http_exception_408">服务器执行超时</string>
+    <string name="error_tips_http_exception_500">服务器内部错误</string>
+
+    <string name="tenant_name">kc186</string>
+    <!-- 通过脚本写入的注册推广码 -->
+    <string name="proxy_code" translatable="false"></string>
+
+
+    <string name="register_tips_re_password">请输入确认密码</string>
+    <string name="register_tips_intro_code">请输入推广码</string>
+    <string name="register_tips_phone">请输入手机号码</string>
+    <string name="register_tips_ver_phone">请输入手机验证码</string>
+    <string name="register_tips_email">请输入邮箱地址</string>
+    <string name="register_tips_ver_email">请输入邮箱验证码</string>
+    <string name="register_tips_wechat">请输入微信</string>
+    <string name="register_tips_qq">请输入QQ</string>
+    <string name="register_tips_real_name">请输入真实姓名</string>
+
+    <string name="string_activity_time_always_valid">活动时间：永久有效</string>
+    <string name="string_activity_time">活动时间：</string>
+
+    <string name="money_limit">限额</string>
+
+    <string name="message_error_10001">获取域名配置失败，请稍后再试</string>
+    <string name="message_error_10003">暂无可用域名配置，请稍后再试</string>
+    <string name="message_error_10002">所有域名请求失败，请稍后再试</string>
+
+    <string name="string_center_wallet">中心钱包</string>
+    <string name="weihu_title">维护中</string>
+
+
+    <string name="string_status_processing">处理中</string>
+    <string name="string_status_ing">受理中</string>
+    <string name="string_success">成功</string>
+    <string name="string_failed">失败</string>
+
+</resources>
